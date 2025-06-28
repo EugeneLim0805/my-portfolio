@@ -1,6 +1,6 @@
 const Navbar = () => (
     <nav className="w-full py-4 px-8 bg-white shadow flex justify-between items-center fixed top-0 left-0 z-50">
-      <div className="font-bold text-xl">MyPortfolio</div>
+      <div className="font-bold text-xl">Uijin Lim(Eugene) | Portfolio</div>
       <ul className="flex space-x-6">
         <li>
           <a href="#home">Home</a>
