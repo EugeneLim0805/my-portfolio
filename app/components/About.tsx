@@ -9,13 +9,13 @@ const About = () => (
             <img 
               src="/Profile_img.JPG" 
               alt="Uijin Lim Profile" 
-              className="w-80 h-100 object-cover"
+              className="w-80 h-100 object-cover rounded-lg"
             />
           </div>
           
           {/* About Text */}
           <div>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-base text-gray-700 leading-relaxed">
               I am an Undergraduate Student pursuing a Bachelor of Science in{' '}
               <a 
                 href="https://ischool.uw.edu/" 
@@ -31,6 +31,9 @@ const About = () => (
                 University of Washington
               </a>, with a strong foundation in data structures and algorithms 
               and a deep interest in full-stack development and machine learning.
+              <br></br>
+              <br></br>
+              I've worked on diverse projects through internships, school, and participating in hackathons.
             </p>
           </div>
         </div>

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Uijin Lim - Portfolio",
+  title: "Uijin Lim | Portfolio",
   description: "Personal portfolio of Uijin Lim",
   icons: {
     icon: '/wave.svg',
