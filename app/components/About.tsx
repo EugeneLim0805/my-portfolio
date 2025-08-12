@@ -1,11 +1,25 @@
+import Image from 'next/image';
+
 const About = () => (
-    <section id="about" className="py-20 px-4">
+    <section id="about" className="py-20 px-4 relative" style={{ backgroundColor: '#fafafa' }}>
+      {/* UW Huskies Logo */}
+      <div className="absolute top-30 right-130 text-center">
+        <Image 
+          src="/uw-huskies-logo.png" 
+          alt="UW Huskies" 
+          width={100}
+          height={100}
+          className="mb-2"
+          priority
+        />
+      </div>
+      
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-light text-center mb-16">About Me</h2>
+        <h2 className="text-3xl font-semibold text-center mb-16">About Me</h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Profile Image */}
-          <div className="flex justify-center">
+          <div className="flex justify-center -mt-4">
             <img 
               src="/Profile_img.JPG" 
               alt="Uijin Lim Profile" 
@@ -15,7 +29,7 @@ const About = () => (
           
           {/* About Text */}
           <div>
-            <p className="text-base text-gray-700 leading-relaxed">
+            <p className="text-xs text-gray-700 leading-relaxed font-medium">
               I am an Undergraduate Student pursuing a Bachelor of Science in{' '}
               <a 
                 href="https://ischool.uw.edu/" 
@@ -29,11 +43,14 @@ const About = () => (
                 className="text-[#4B2E83] font-bold hover:text-[#B7A57A] hover:underline transition-colors"
               >
                 University of Washington
-              </a>, with a strong foundation in data structures and algorithms 
-              and a deep interest in full-stack development and machine learning.
+              </a>, with a concentration in Software Development and Data Science. 
+              I have a strong foundation in data structures and algorithms and a deep interest in full-stack development and machine learning.
               <br></br>
               <br></br>
-              I've worked on diverse projects through internships, school, and participating in hackathons.
+              Through internships, coursework, and hackathons, I've developed solutions ranging from a defect prediction model leveraging machine learning to a Google Maps-based full-stack service, as well as optimized large-scale data pipelines for AI applications. These diverse projects have enhanced my technical versatility and deepened my commitment to delivering impactful, real-world solutions.
+              <br></br>
+              <br></br>
+              Outside of school and code, I enjoy hiking, playing soccer, cooking, and traveling. I'm always eager to grow through continuous learning, feedback, and collaboration. Feel free to reach out, I'd love to connect!
             </p>
           </div>
         </div>
