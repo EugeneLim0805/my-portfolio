@@ -3,9 +3,9 @@ import { skillCategories } from "../data/skills";
 
 export default function Skills() {
   return (
-    <section className="bg-white py-16">
+    <section id="skills" className="bg-white py-20">
       <div className="max-w-5xl mx-auto px-6">
-        <h2 className="text-4xl font-extrabold text-center mb-12 tracking-tight text-gray-800">
+        <h2 className="text-4xl font-semibold text-center mb-12 tracking-tight text-gray-800">
           Skills
         </h2>
         
