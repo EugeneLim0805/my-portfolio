@@ -8,7 +8,7 @@ export default function Contact() {
         
         <div className="space-y-6">
           <p className="text-sm text-gray-600 max-w-xl mx-auto leading-relaxed">
-            I'm always open to discussing new opportunities, feedback or just having a chat.
+            I&apos;m always open to discussing new opportunities, feedback or just having a chat.
             <br />
             Feel free to reach out to me!
           </p>

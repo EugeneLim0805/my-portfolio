@@ -47,10 +47,10 @@ const About = () => (
               I have a strong foundation in data structures and algorithms and a deep interest in full-stack development and <span className="whitespace-nowrap">machine learning</span>.
               <br></br>
               <br></br>
-              Through internships, coursework, and hackathons, I've developed solutions ranging from Google Maps full-stack services to EV battery defect prediction. These diverse projects have enhanced my technical versatility and deepened my commitment to delivering impactful, real-world solutions.
+              Through internships, coursework, and hackathons, I&apos;ve developed solutions ranging from Google Maps full-stack services to EV battery defect prediction. These diverse projects have enhanced my technical versatility and deepened my commitment to delivering impactful, real-world solutions.
               <br></br>
               <br></br>
-              Outside of school and code, I enjoy hiking, playing soccer, cooking, and traveling. I'm always eager to grow through continuous learning, feedback, and collaboration. Feel free to reach out, I'd love to connect!
+              Outside of school and code, I enjoy hiking, playing soccer, cooking, and traveling. I&apos;m always eager to grow through continuous learning, feedback, and collaboration. Feel free to reach out, I&apos;d love to connect!
             </p>
           </div>
         </div>
