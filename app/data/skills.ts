@@ -117,7 +117,7 @@ const technologiesAndTools: Skill[] = [
   },
   {
     id: 21,
-    name: "pandas",
+    name: "Pandas",
     image: "https://pandas.pydata.org/static/img/pandas_mark.svg",
   },
   {

@@ -17,12 +17,12 @@ const Hero = () => {
         <div className="space-y-6">
           {/* Floating animation for greeting */}
           <div className={`transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            <h1 className="text-3xl md:text-5xl font-light text-gray-800 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-light text-gray-800 leading-tight">
               <span className="block mb-2">Hi, I&apos;m</span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-blue-600 to-purple-800 font-semibold">
                 Uijin Lim
               </span>
-              <span className="block mt-4 text-xl md:text-2xl text-gray-600 font-light">
+              <span className="block mt-4 text-2xl md:text-3xl text-gray-600 font-light">
                 Software Engineer
               </span>
             </h1>
@@ -30,7 +30,7 @@ const Hero = () => {
           
           {/* Slide in animation for description */}
           <div className={`transform transition-all duration-1000 delay-500 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
-            <p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed">
               Passionate about building technology that solves real-world problems
             </p>
           </div>
@@ -47,9 +47,9 @@ const Hero = () => {
                   href={social.url}
                   target={social.name !== 'Email' ? '_blank' : undefined}
                   rel={social.name !== 'Email' ? 'noopener noreferrer' : undefined}
-                  className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition-all duration-300"
+                  className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition-all duration-300"
                 >
-                  <IconComponent size={16} className="text-gray-600" />
+                  <IconComponent size={20} className="text-gray-600" />
                 </a>
               );
             })}

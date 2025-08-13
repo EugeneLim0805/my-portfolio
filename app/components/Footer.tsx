@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-white text-gray-600 py-8 px-4">
       <div className="max-w-4xl mx-auto text-center">
         <div className="flex flex-col items-center space-y-4">
-          <div className="text-xs text-gray-500">
+          <div className="text-sm text-gray-500">
             © 2025 Uijin Lim. All rights reserved.
           </div>
           
@@ -21,7 +21,7 @@ export default function Footer() {
                   rel={link.name !== 'Email' ? 'noopener noreferrer' : undefined}
                   className="text-gray-500 hover:text-gray-800 transition-colors duration-300"
                 >
-                  <IconComponent size={16} />
+                  <IconComponent size={18} />
                 </a>
               );
             })}
