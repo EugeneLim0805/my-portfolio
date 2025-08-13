@@ -44,10 +44,10 @@ const About = () => (
               >
                 University of Washington
               </a>, with a concentration in Software Development and Data Science. 
-              I have a strong foundation in data structures and algorithms and a deep interest in full-stack development and machine learning.
+              I have a strong foundation in data structures and algorithms and a deep interest in full-stack development and <span className="whitespace-nowrap">machine learning</span>.
               <br></br>
               <br></br>
-              Through internships, coursework, and hackathons, I've developed solutions ranging from a defect prediction model leveraging machine learning to a Google Maps-based full-stack service, as well as optimized large-scale data pipelines for AI applications. These diverse projects have enhanced my technical versatility and deepened my commitment to delivering impactful, real-world solutions.
+              Through internships, coursework, and hackathons, I've developed solutions ranging from Google Maps full-stack services to EV battery defect prediction. These diverse projects have enhanced my technical versatility and deepened my commitment to delivering impactful, real-world solutions.
               <br></br>
               <br></br>
               Outside of school and code, I enjoy hiking, playing soccer, cooking, and traveling. I'm always eager to grow through continuous learning, feedback, and collaboration. Feel free to reach out, I'd love to connect!
