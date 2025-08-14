@@ -10,7 +10,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "My Portfolio",
-    description: "Modern and responsive portfolio website built with Next.js and CSS. Features smooth animations and a clean layout that presents my projects, work experience, and technical expertise.",
+    description: "Modern and responsive portfolio website built with Next.js and Tailwind CSS. Features smooth animations and a clean layout that presents my projects, work experience, and technical expertise.",
     image: "/my.png",
     link: "https://github.com/EugeneLim0805/my-portfolio"
   },
